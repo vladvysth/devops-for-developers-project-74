@@ -1,8 +1,9 @@
 services:
   app:
-    build: .
-    volumes:
-      - ./app:/app
+    image: vladvysth/hexlet-1:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.production
     working_dir: /app
     environment:
       - NODE_ENV=development
