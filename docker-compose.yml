@@ -1,6 +1,6 @@
 services:
   app:
-    image: vladvysth/hexlet-1:latest
+    # image: vladvysth/hexlet-1:latest
     build:
       context: .
       dockerfile: Dockerfile.production
