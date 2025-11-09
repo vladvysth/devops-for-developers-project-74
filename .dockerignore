@@ -1,1 +1,12 @@
 node_modules
+.git
+.github
+.env
+*.sqlite
+.DS_Store
+app/node_modules
+app/dist
+app/database.sqlite
+app/database.test.sqlite
+README.md
+.gitignore
